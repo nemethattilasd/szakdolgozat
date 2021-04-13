@@ -1,0 +1,150 @@
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+
+h2{
+    position: relative;
+    text-align: center;
+    font-size: 7vw;
+    color:  rgba(38, 172, 33, 0.7);
+    font-family: 'Courier New', monospace;
+    margin-bottom: 1rem;
+    margin-top: auto;
+}
+
+h3{
+  position: relative;
+  text-align: center;
+  font-size: 24px;
+  color:  rgba(38, 172, 33, 0.7);
+  font-family: 'Courier New', monospace;
+  margin-bottom: 0px;
+}
+
+body, html {
+  height: 90%;
+  color: #777;
+  line-height: 1.8;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(background.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;   
+    position: relative;    
+    height: 100%;
+  }
+
+  
+  /* Style the content */
+  .button {
+    position: relative;
+    margin-bottom: 3rem; 
+    width: 30vw;
+    padding: 15px 25px;
+    font-size: 5vw;
+    display:flex;
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color:rgba(38, 172, 33, 0.7);;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px rgb(32, 78, 5);
+  }
+  
+.button:hover {
+  background-color:rgba(11, 121, 26, 0.7);
+}
+
+.button:active {
+background-color: #3e8e41;
+box-shadow: 0 2px rgb(32, 78, 5);
+transform: translateY(4px);
+}
+
+.backbutton {
+  position: relative;
+  margin-bottom: 3rem; 
+  display:flex;
+  width: 8rem;
+  padding: 15px 25px;
+  font-size: 32px;
+  display:flex;
+  cursor: pointer;
+  text-align: center;
+  justify-content: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color:rgba(38, 172, 33, 0.7);;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px rgb(32, 78, 5);
+}
+.backbutton:hover {
+  background-color:rgba(11, 121, 26, 0.7);
+}
+
+.backbutton:active {
+background-color: #3e8e41;
+box-shadow: 0 2px rgb(32, 78, 5);
+transform: translateY(4px);
+}
+
+.shopbutton {
+  position: relative;
+  margin-bottom: 3rem; 
+  display:flex;
+  width: 30vw;
+  height: 8vw;
+  padding: 2vw 15px;
+  font-size: 3.5vw;
+  display:flex;
+  cursor: pointer;
+  text-align: center;
+  justify-content: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color:rgba(38, 172, 33, 0.7);;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px rgb(32, 78, 5);
+}
+.shopbutton:hover {
+  background-color:rgba(11, 121, 26, 0.7);
+}
+
+.shopbutton:active {
+background-color: #3e8e41;
+box-shadow: 0 2px rgb(32, 78, 5);
+transform: translateY(4px);
+}
+
+
+
+input[type=text], input[type=password] {   
+  position: relative;
+  width: 20rem;   
+  margin: 8px 0;  
+  padding: 12px 10px;   
+  display: flex;   
+  border: 2px solid rgb(38, 172, 33);
+  box-sizing: border-box;  
+  justify-content: center;
+  position: center;
+} 
+
+.default-row-spacer{
+  margin-bottom:50px;
+}
+
